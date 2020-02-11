@@ -901,14 +901,14 @@ figure figcaption {
   text-decoration: underline;
 }
 
-
+/*
 .icon i:before {
   background: #FFF748;
   background: linear-gradient(45deg, #FFF748 0%, rgb(255, 242, 0) 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 #pricing .about-content:hover .icon i,
 #pricing .about-content:hover h2 {
@@ -2373,8 +2373,9 @@ preview-2
 }
 
 .why-us .icon-box + .icon-box {
-  margin-top: 50px;
+  margin-top: 40px;
 }
+
 
 .why-us .icon-box .icon {
   float: left;
@@ -2388,9 +2389,11 @@ preview-2
   transition: 0.5s;
 }
 
+
 .why-us .icon-box .icon i {
   color: #5B1A5A;
   font-size: 32px;
+  /* font-weight: 700; */
 }
 
 .why-us .icon-box:hover .icon {
@@ -2405,7 +2408,7 @@ preview-2
   margin-left: 95px;
   font-weight: 700;
   margin-bottom: 10px;
-  font-size: 28px;
+  font-size: 24px;
   /* text-transform: uppercase; */
   font-family: 'hk_groteskmedium';
   /* font-weight: normal;
@@ -2424,7 +2427,7 @@ preview-2
 .why-us .icon-box .description {
   margin-left: 95px;
   line-height: 24px;
-  /* font-size: 18px; */
+  font-size: 20px;
   font-family: 'hk_groteskmedium';
   font-weight: normal;
   font-style: normal;

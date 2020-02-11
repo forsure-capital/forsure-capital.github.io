@@ -1,5 +1,5 @@
 {
-  "name": "forsure-capital",
+  "name": "forsureprofit",
   "version": "1.0.0",
   "description": "South America-based Educational Service Company to develop and close deals, seeking to partner with the world's most talented investors to create exceptional value. https://forsurecapital.github.io/",
   "main": "index.js",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/forsurecapital/forsurecapital.github.io/issues"
   },
-  "homepage": "https://github.com/forsurecapital/forsurecapital.github.io#readme"
+  "homepage": "https://github.com/forsurecapital/forsurecapital.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0"
+  }
 }

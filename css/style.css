@@ -978,22 +978,27 @@ figure figcaption {
   box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
   background: #fff;
   padding: 40px;
+  border-left: 1px solid #d9e8f4;
+  border-bottom: 1px solid #d9e8f4;
+  margin: -1px;
 }
 
 .step .number {
-  background: linear-gradient(-45deg, #3C1A5B, #1A245B);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 700;
+  /* background: linear-gradient(-45deg, #3C1A5B, #5B1A5A); */
+  font-family: 'hk_groteskbold', Arial, sans-serif;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
   letter-spacing: .2rem;
   margin-bottom: 10px;
   display: block;
+  font-size: 24px;
+  font-weight: 400;
+  color: #5B1A5A;
 }
 
 .step p:last-child {
   margin-bottom: 0px;
 }
-
 /* Review */
 
 .review h3 {

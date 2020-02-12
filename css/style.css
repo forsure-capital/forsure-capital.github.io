@@ -275,6 +275,12 @@ p {
   font-style:normal;
   padding: 0;
   text-align: left;
+
+  line-height: 1.333;
+  letter-spacing: -.2px;
+  margin-top: 0;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
   /* color: #343a40; */
   /* margin: 0 0 30px 0; */
 }
@@ -443,29 +449,36 @@ figure figcaption {
   -webkit-text-fill-color: transparent;
 }
 
+
 .section-header p {
   width: 100%;
   color: #343a40;
+  /* color: color: #4e4e4e; */
+  font-family: 'hk_groteskmedium';
+  line-height: 1.333;
+  letter-spacing: -.2px;
+  margin-top: 0;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
 }
+
+
+.section-header p:first-child {
+  font-size: 1.625rem;
+  margin-bottom: 2rem;
+}
+
 
 .section-header h3,
 .section-header h2 {
-  /* font-size: 48px; */
   color: #343a40;
   text-align: center;
-  /* font-weight: 700; */
   position: relative;
-  /* font-family: 'Merriweather', serif; */
   font-family: 'hk_groteskbold', Arial, sans-serif;
-  font-weight:normal;
-  font-style:normal;
   font-weight: 700;
   line-height: 1.1875;
   letter-spacing: -.8px;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  /* text-transform: uppercase; */
-  /* margin-bottom: 4rem; */
+  font-size: 3rem;
 }
 
 .section-header p {
@@ -2418,6 +2431,12 @@ preview-2
 .why-us .icon-box .title a {
   color: #343a40;
   transition: 0.3s;
+  font-family: 'hk_grotesksemibold';
+  line-height: 1.333;
+  letter-spacing: -.2px;
+  margin-top: 0;
+  font-size: 1.425rem;
+  margin-bottom: 1rem;
 }
 
 .why-us .icon-box .title a:hover {
@@ -2427,10 +2446,13 @@ preview-2
 .why-us .icon-box .description {
   margin-left: 95px;
   line-height: 24px;
-  font-size: 20px;
-  font-family: 'hk_groteskmedium';
-  font-weight: normal;
-  font-style: normal;
+  /* font-size: 20px; */
+  font-family: 'hk_grotesklight';
+  line-height: 1.333;
+  letter-spacing: -.2px;
+  margin-top: 0;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
 }
 
 .why-us .video-box {

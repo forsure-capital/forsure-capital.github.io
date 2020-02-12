@@ -1,24 +1,57 @@
 {
   "name": "forsureprofit",
   "version": "1.0.0",
-  "description": "Most talented investors to create exceptional value.",
+  "description": "An easier way to grow your savings faster & help people lessen their financial anxiety, through lower-risk High yield investing to achieve your early-retirement.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "dev": "lite-server"
   },
+  "keywords": [
+    "savings",
+    "financial",
+    "lower-risk",
+    "investing",
+    "high yield",
+    "early-retirement",
+    "investments",
+    "independence",
+    "retire",
+    "early",
+    "stocks",
+    "low-cost",
+    "save",
+    "invest",
+    "habits"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/forsure-capital/forsure-capital.github.io.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Sergio Torres",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/forsure-capital/forsure-capital.github.io/issues"
   },
-  "homepage": "https://github.com/forsure-capital/forsure-capital.github.io#readme",
+  "homepage": "https://forsureprofit.com/",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "axios": "^0.19.2",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-header": "^2.0.9",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "lite-server": "^2.5.4",
+    "merge-stream": "^2.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^3.3.1",
+    "react-stripe-checkout": "^2.6.3",
+    "react-toastify": "^5.5.0"
   }
 }

@@ -514,7 +514,7 @@ figure figcaption {
 
 /* About */
 #about .about-content {
-  padding-top: 20px;
+  padding: 40px;
 }
 
 #about .about-content h2 {

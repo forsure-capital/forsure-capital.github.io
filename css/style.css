@@ -873,7 +873,7 @@ figure figcaption {
   flex-basis: auto;
   width: auto;
   cursor: pointer;
-  padding: 19px 40px 20px;
+  padding: 19px 0px 20px;
   display: inline-block;
   /* background: #282629;
   border: 2px solid #141e30;
@@ -1145,9 +1145,18 @@ figure figcaption {
   background: none;
 }
 
-.pricing.popular .btn-white {
+/* .pricing.popular .btn-white {
   border: 2px solid #3C1A5B;
+} */
+
+/* .pricing.popular .fancy-btn {
 }
+
+.pricing.popular .fancy-btn:hover {
+  color: #3C1A5B;
+} */
+
+
 
 /* CTA Section */
 
@@ -1325,7 +1334,7 @@ figure figcaption {
 }
 
 .post-entry .post-text .post-meta {
-  color: #ccc;
+  color: #8D9096;
   font-size: 13px;
   display: block;
   margin-bottom: 10px;

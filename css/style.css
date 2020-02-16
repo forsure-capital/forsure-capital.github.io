@@ -1502,7 +1502,7 @@ figure figcaption {
   width: 100%;
   overflow: hidden;
   position: absolute;
-  z-index: 1;
+  /* z-index: 1; */
   bottom: -150px;
 }
 

@@ -443,7 +443,7 @@ figure figcaption {
 .section-heading {
   font-size: 2.5rem;
   /* font-weight: 700; */
-  /* font-family: 'hk_groteskmedium'; */
+  font-family: 'hk_groteskmedium';
   background: linear-gradient(-45deg, #3C1A5B, #1A245B);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -564,9 +564,9 @@ figure figcaption {
 #about .about-img,
 #intro .about-img {
   position: relative;
-  /* margin: 30px 30px 30px 30px; OJO CON ESTE */
+  margin: 30px 30px 30px 30px;
   /* background-color: #3C1A5B; */
-  align-self: end;
+  /* align-self: center; */
 }
 
 #about .about-img img,

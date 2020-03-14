@@ -785,20 +785,20 @@ figure figcaption {
   cursor: pointer;
   /* width: 160px;
   height: 46px; */
-  border-left: 2px solid #f0c14b;
-  border-right: 2px solid #F8CF62;
+  /* border-left: 2px solid #5B1A5A;
+  border-right: 2px solid #5B1A5A; */
+  border: 2px solid #5B1A5A;
   box-sizing: border-box;
   background-position: 0 0, 0 100%;
   background-repeat: no-repeat;
   background-size: 100% 2px;
-  background-image: -webkit-linear-gradient(left, #f0c14b 0%, #F8CF62 100%), -webkit-linear-gradient(left, #f0c14b 0%, #F8CF62 100%);
-  background-image: linear-gradient(to right, #f0c14b 0%, #F8CF62 100%), linear-gradient(to right, #f0c14b 0%, #F8CF62 100%);
+  /* background-image: -webkit-linear-gradient(left, #5B1A5A 0%, #3C1A5B 100%), -webkit-linear-gradient(left, #5B1A5A 0%, #3C1A5B 100%);
+  background-image: linear-gradient(to right, #5B1A5A 0%, #3C1A5B 100%), linear-gradient(to right, #5B1A5A 0%, #3C1A5B 100%); */
   -webkit-transition-duration: 1000ms;
   transition-duration: 1000ms;
   transition: box-shadow 420ms cubic-bezier(.165,.84,.44,1),color 420ms cubic-bezier(.165,.84,.44,1),background 420ms cubic-bezier(.165,.84,.44,1);
   position: relative;
   z-index: 1;
-
   text-decoration: none!important;
   margin-top: 10px!important;
   vertical-align: middle;
@@ -810,18 +810,11 @@ figure figcaption {
   color: #fff;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  /* background: #f0c14b; */
-  background: rgb(244, 208, 120);
-  background: -webkit-linear-gradient(to right, #f0c14b, #F8CF62);
-  background: -webkit-linear-gradient(left, #f0c14b, #F8CF62);
-  background: linear-gradient(to right, #f0c14b, #F8CF62);
-  /* box-shadow: 0 1px 0 rgba(255,255,255,.4) inset; */
-
-  /* background: rgb(244, 208, 120);
-  background: -webkit-linear-gradient(top,rgb(247, 223, 165),rgb(240, 193, 75));
-  background: linear-gradient(to bottom,rgb(247, 223, 165),rgb(240, 193, 75));
-  box-shadow: 0 1px 0 rgba(255,255,255,.4) inset; */
-
+  background: #FFFF00;
+  background: -webkit-linear-gradient(to right, #FFFF00;, #FFF748);
+  background: -webkit-linear-gradient(left, #FFFF00;, #FFF748);
+  background: linear-gradient(to right, #FFFF00;, #FFF748);
+  box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
   content: '';
   position: absolute;
   width: 100%;
@@ -2832,7 +2825,7 @@ preview-2
 
 #hero .carousel-item::before {
   content: '';
-  background-color: rgba(21, 27, 26, 0.7);
+  background-color: rgba(30, 28, 31, 0.7);
   position: absolute;
   height: 100vh;
   width: 100%;
@@ -2964,6 +2957,25 @@ preview-2
   #hero h2 {
     font-size: 28px;
   }
+  #hero .btn-get-started {
+    /* margin: 2em; */
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.28571429;
+    letter-spacing: .8px;
+    font-size: .875rem;
+    text-decoration: none;
+    padding: 19px 40px 20px;
+    display: block;
+    transition: box-shadow 420ms cubic-bezier(.165,.84,.44,1),color 420ms cubic-bezier(.165,.84,.44,1),background 420ms cubic-bezier(.165,.84,.44,1);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -2973,6 +2985,10 @@ preview-2
   #hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;
   }
+  /* #hero .btn-get-started {
+    margin-top: 0;
+    width: 100%;
+  } */
 }
 
 /*--------------------------------------------------------------

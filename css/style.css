@@ -329,7 +329,7 @@ div#preloader {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url('../img/preloader.gif') no-repeat center center;
+  background: #5B1A5A url('../img/preloader.gif') no-repeat center center;
 }
 
 ::-moz-selection {
@@ -388,7 +388,7 @@ div#preloader {
 
 
 a {
-  color: #777;
+  color: #5B1A5A;
   transition: .3s all ease;
 }
 
@@ -586,7 +586,7 @@ figure figcaption {
 }
 
 #about a {
-  color: #fff;
+  color: #5B1A5A;
 }
 /*
 #about .about-img::before,
@@ -1196,21 +1196,21 @@ figure figcaption {
 }
 
 .sticky-wrapper .site-navbar .site-menu-toggle {
-  color: #fff;
+  color: #5B1A5A;
 }
 
 .sticky-wrapper .site-navbar .site-logo a {
-  color: #fff;
+  color: #5B1A5A;
   font-family: 'hk_groteskbold';
 }
 
 .sticky-wrapper .site-navbar .site-menu > li > a {
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: rgba(91, 26, 90, 0.8) !important;
 }
 
 .sticky-wrapper .site-navbar .site-menu > li > a:hover,
 .sticky-wrapper .site-navbar .site-menu > li > a.active {
-  color: #fff !important;
+  color: #5B1A5A; !important;
 }
 
 .sticky-wrapper.is-sticky .burger:before,
@@ -1604,7 +1604,7 @@ figure figcaption {
 }
 
 .site-navbar .site-logo a {
-  color: #fff;
+  color: #5B1A5A;
 }
 
 .site-navbar .site-logo a:hover {
@@ -1944,7 +1944,7 @@ figure figcaption {
   width: 100%;
   height: 2px;
   display: block;
-  background: #fff;
+  background: #5B1A5A;
   border-radius: 2px;
   position: absolute;
   opacity: 1;
@@ -2826,7 +2826,7 @@ preview-2
 
 #hero .carousel-item::before {
   content: '';
-  background-color: rgba(30, 28, 31, 0.7);
+  /* background-color: rgba(30, 28, 31, 0.7); */
   position: absolute;
   height: 100vh;
   width: 100%;
@@ -2852,7 +2852,7 @@ preview-2
 }
 
 #hero h2 {
-  color: #fff;
+  color: #5B1A5A;
   margin-bottom: 30px;
   font-size: 58px;
   font-weight: 700;
@@ -2910,7 +2910,7 @@ preview-2
 }
 
 #hero .carousel-indicators .active {
-  background-color: #FFF748;
+  background-color: #5B1A5A;
 }
 
 

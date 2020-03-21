@@ -535,7 +535,7 @@ figure figcaption {
   /* color: #343a40; */
   color: #fff;
   /* font-family: 'Merriweather', serif; */
-  font-family: 'hk_groteskbold', Arial, sans-serif;
+  font-family: 'hk_groteskbold';
   font-weight:normal;
   font-style:normal;
   /* font-weight: 700; */
@@ -543,6 +543,9 @@ figure figcaption {
 
 #about .about-content p {
   color: #fff;
+  line-height: 24px;
+  font-size: 14px;
+  font-family: 'hk_groteskregular';
 }
 
 #about .about-content .lni-ruler-alt {
@@ -1018,6 +1021,12 @@ figure figcaption {
 
 .step p:last-child {
   margin-bottom: 0px;
+}
+
+.step .steps {
+  line-height: 24px;
+  font-size: 16px;
+  font-family: 'hk_grotesklight';
 }
 /* Review */
 
@@ -3559,7 +3568,7 @@ preview-2
 /*--------------------------------------------------------------
 # Our Services
 --------------------------------------------------------------*/
-.services .icon-box {
+/* .services .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -3641,7 +3650,7 @@ preview-2
 
 .services .icon-box:hover .icon i {
   color: #3C1A5B;
-}
+} */
 
 
 
@@ -3940,6 +3949,13 @@ section {
   margin-bottom: 15px;
 }
 
+.about .icon-guarantee h4 {
+  font-size: 18px;
+  color: #fff9f7;
+  margin-bottom: 15px;
+  font-family: 'hk_groteskregular';
+}
+
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
@@ -3947,9 +3963,50 @@ section {
   margin-bottom: 15px;
 }
 
+.about .icon-guarantee h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #FFFF00;
+  margin-bottom: 15px;
+  font-family: 'hk_grotesksemibold';
+}
+
+.about .icon-guarantee p {
+  color: #fff9f7;
+}
+
 .about .icon-box {
   margin-top: 40px;
 }
+
+.about .icon-box .icon-guarantee {
+  background: rgba(0,0,0,0.1);
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid rgba(255, 247, 72, 0.2);
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.about .icon-box:hover .icon-guarantee {
+  background: rgba(0,0,0,0.2);
+  border-color: rgba(255, 247, 72, 0.9);
+}
+
+.about .icon-box .icon-guarantee i {
+  color: #FFF748;
+  font-size: 32px;
+}
+
+
+.about .icon-box:hover .icon-guarantee i {
+  color: #FFFF00;
+}
+
 
 .about .icon-box .icon {
   float: left;
@@ -3963,6 +4020,7 @@ section {
   transition: 0.5s;
   background: #fff;
 }
+
 
 .about .icon-box .icon i {
   color: #5B1A5A;
@@ -4007,6 +4065,13 @@ section {
   background: url("../img/lookingat.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
+}
+
+.about .guarantee {
+  background: url("../img/guarantee-of-your-investment.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about .play-btn {

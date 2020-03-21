@@ -3970,12 +3970,12 @@ section {
 }
 
 .about .icon-box:hover .icon {
-  background: #5B1A5A;
-  border-color: #5B1A5A;
+  background: #FFFF00;
+  border-color: #FFFF00;
 }
 
 .about .icon-box:hover .icon i {
-  color: #fff;
+  color: #5B1A5A;
 }
 
 .about .icon-box .title {
@@ -4009,7 +4009,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#5B1A5A 50%, rgba(255, 88, 33, 0.4) 52%);
+  background: radial-gradient(#5B1A5A 50%, rgba(60, 26, 91, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -4050,7 +4050,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(255, 88, 33, 0.7);
+  border: 5px solid rgba(60, 26, 91, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);

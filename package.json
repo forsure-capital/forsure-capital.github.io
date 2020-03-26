@@ -1,0 +1,23 @@
+{
+  "name": "forsureprofit",
+  "version": "1.0.0",
+  "description": "Thanks for downloading this template!",
+  "main": "index.js",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forsure-capital/forsure-capital.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forsure-capital/forsure-capital.github.io/issues"
+  },
+  "homepage": "https://github.com/forsure-capital/forsure-capital.github.io#readme"
+}
